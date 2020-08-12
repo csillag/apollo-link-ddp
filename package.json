@@ -1,0 +1,36 @@
+{
+  "name": "apollo-link-ddp",
+  "version": "3.0.0-promise",
+  "description": "Apollo Link using DDP",
+  "main": "src/index.js",
+  "browser": "dist/index.js",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.7.0"
+  },
+  "peerDependencies": {
+    "apollo-link": "^1.0.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swydo/ddp-apollo.git"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "link",
+    "ddp"
+  ],
+  "author": "Kristof Csillag",
+  "license": "MIT",
+  "homepage": "https://github.com/csillag/ddp-apollo#readme",
+  "dependencies": {
+    "promise": "7.3.1"
+  }
+}
